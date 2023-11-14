@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to full viewport height */
+}
+
+.top{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+a{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(228, 231, 234);
+    text-decoration: none;
+}
+
+a:hover{
+    color: limegreen;
+}
+
+.logo{
+  text-align: center;
+  padding: 0;
+  align-items: center;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+    float: left;
+    align-self: center;
+    margin-top: 18px;
+    margin-left: 9px;
+    max-height: 40px; 
+    border-radius: 30px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+footer {
+    background-color: #080808;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.soc{
+    margin-right: auto;
+}
+
+.soc a{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(228, 231, 234);
+    text-decoration: none;
+}
+
+.soc a:hover{
+    color: darkblue;
+}
+
+.abou{
+    margin-left: auto;
+}
+
+.cop{
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 12px;
+    color: aliceblue;
+}
+
+p{
+    font-size: 12px;
+    color: aliceblue;
+}
+
+p:hover{
+    text-decoration: underline;
+}
+
+.text{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: transparent; /* Initial background color */
+        color: rgb(128, 128, 128); /* Initial text color */
+    }
+    50% {
+        background-color: transparent; /* Midpoint background color */
+        color: rgb(0, 0, 0); /* Midpoint text color */
+    }
+    100% {
+        background-color: transparent; /* Final background color */
+        color: rgb(128, 128, 128); /* Final text color */
+    }
+}
+
+h1 {
+    display: inline-block;
+    padding: 10px;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    animation: colorChange 3s infinite; /* Adjust the duration and iteration as needed */
+}
+
+.text p{
+    color: rgb(4, 4, 4);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text .join-now-button {
+    display: inline-block;
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #007bff; /* Your desired button color */
+    color: #fff; /* Text color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.join-now-button:hover {
+    background-color: #0056b3;
+    text-decoration: none; /* Change the color on hover */
+}
+
+strong{
+    margin: 0 auto;
+    align-self: center;
+}
+
+.text a{
+    color: #080808;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.sp:hover{
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
