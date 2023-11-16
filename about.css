@@ -1,0 +1,194 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fffcfc; /* Dark grey header background */
+    color: #000000;
+}
+
+header p{
+    color: #080808;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em; /* Dark grey heading */
+}
+
+section p {
+    line-height: 1.6;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+section p:hover{
+    text-decoration: none;
+    cursor: default;
+}
+
+section ul li{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.highlight {
+    font-weight: bolder;
+    color: #fff; /* White highlight text */
+}
+
+.cta-button{
+    margin-bottom: 20px;
+    display: flex;
+    width: fit-content;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #ffffff; /* Your desired button color */
+    color: #030303; /* Text color */
+    border: 1px solid #030303;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover{
+    background-color: #030303;
+    color: #ffffff;
+    box-shadow: 0 15px 20px rgb(8, 8, 8); 
+    text-decoration: none; 
+}
+
+/*.cta-button {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #040404;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover{
+    box-shadow:  0 10px 20px black;
+    color: #080808;
+    background-color: #fff;
+}*/
+
+
+.top{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.top a{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(228, 231, 234);
+    text-decoration: none;
+}
+
+.top a:hover{
+    color: limegreen;
+}
+
+.logo{
+  text-align: center;
+  padding: 0;
+  align-items: center;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+    float: left;
+    align-self: center;
+    margin-top: 18px;
+    margin-left: 9px;
+    max-height: 40px; 
+    border-radius: 30px; 
+}
+
+footer {
+    background-color: #080808;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.soc{
+    margin-right: auto;
+}
+
+.soc a{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(228, 231, 234);
+    text-decoration: none;
+}
+
+.soc a:hover{
+    color: darkblue;
+}
+
+.abou{
+    margin-left: auto;
+}
+
+.cop{
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 12px;
+    color: aliceblue;
+}
+
+p{
+    font-size: 12px;
+    color: aliceblue;
+}
+
+p:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./regop-high-resolution-logo-black.png);
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to full viewport height */
+}
+
+.top{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+a{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(228, 231, 234);
+    text-decoration: none;
+}
+
+a:hover{
+    color: limegreen;
+}
+
+.logo{
+  text-align: center;
+  padding: 0;
+  align-items: center;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+    float: left;
+    align-self: center;
+    margin-top: 18px;
+    margin-left: 9px;
+    max-height: 40px; 
+    border-radius: 30px; 
+}
+
+footer {
+    background-color: #080808;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.soc{
+    margin-right: auto;
+}
+
+.soc a{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(228, 231, 234);
+    text-decoration: none;
+}
+
+.soc a:hover{
+    color: darkblue;
+}
+
+.abou{
+    margin-left: auto;
+}
+
+.cop{
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 12px;
+    color: aliceblue;
+}
+
+p{
+    font-size: 12px;
+    color: aliceblue;
+}
+
+p:hover{
+    text-decoration: underline;
+}
+
+.contain{
+    background-color: aliceblue;
+    border: 1px solid transparent;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 25px;
+    width: fit-content;
+}
+
+.wig{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 200;
+    flex-direction: row;
+    align-items: center; 
+    height: 450px;
+    width: 300px;
+    border-radius: 0 5px 5px 0;
+    background-color: #fffcfc;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.wig:not(:active){
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    height: 450px;
+    width: 300px;
+    border-radius: 0 5px 5px 0;
+    background-color: #fffcfc;
+    filter: blur(1.4);
+}
+
+.wig h2{
+    color: #030303;
+}
+
+.sig h2{
+    color: #ffffff;
+}
+
+.sig{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 200;
+    align-items: center; 
+    height: 450px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    background-color: #030303;
+}
+
+input[type="password"]{
+    width: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    border: 1px solid grey;
+    height: 25px;
+    text-align: center;
+    margin: 5px;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+input[type="email"]{
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.wig button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 15px 20px rgb(255, 253, 253); 
+    text-decoration: none; /* Change the color on hover */
+}
+
+.sig button:hover{
+    background-color: #ffffff;
+    color: #040404;
+    box-shadow: 0 15px 20px rgb(255, 253, 253); 
+    text-decoration: none; /* Change the color on hover */
+}
+
+h2{
+    color: aliceblue;
+    margin-bottom: 50px;
+    top: 0;
+    left: 0;
+}
+
+.sig {
+    width: 300px;
+    height: 450px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    color: black;
+    border-radius: 5px 0 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .sig.active {
+    background-color: black;
+    color: white;
+  }
+
+  .blur {
+    filter: blur(4px);
+  }
+
+  .sig h2 {
+    margin-top: 0;
+    color: #040404;
+  }
+
+  .sig.active h2{
+    margin-top: 0;
+    color: #fffcfc;
+  }
+
+  .sig.inactive::before {
+    content: "Inactive Form";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+  }
+
+
+  .wig {
+    width: 300px;
+    height: 450px;
+    border: 1px solid #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    border-radius: 5px 0 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .wig.active {
+    background-color: black;
+    color: white;
+  }
+
+  .wig.active h2{
+    color: #ffffff;
+  }
+
+  .blur {
+    filter: blur(4px);
+  }
+
+  .wig h2 {
+    margin-top: 0;
+    color: #070707;
+  }
+
+  .wig.inactive::before {
+    content: "Inactive Form";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+  }
