@@ -152,18 +152,21 @@ h1 {
     display: flex;
     width: fit-content;
     padding: 10px 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 16px;
     text-decoration: none;
-    background-color: #007bff; /* Your desired button color */
-    color: #fff; /* Text color */
+    background-color: #ffffff; /* Your desired button color */
+    color: #030303; /* Text color */
+    border: 1px solid #030303;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
 }
 
 .join-now-button:hover {
-    background-color: #0056b3;
+    background-color: #030303;
+    color: #ffffff;
+    box-shadow: 0 15px 20px rgb(8, 8, 8); 
     text-decoration: none; /* Change the color on hover */
 }
 
